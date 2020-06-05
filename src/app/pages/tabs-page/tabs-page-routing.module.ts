@@ -49,6 +49,24 @@ const routes: Routes = [
         ]
       },
       {
+        path: 'videos',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../videos/videos.module').then(m => m.VideosPageModule)
+          }
+        ]
+      },
+      {
+        path: 'upload',
+        children: [
+          {
+            path: '',
+            loadChildren: () => import('../upload/upload.module').then(m => m.UploadPageModule)
+          }
+        ]
+      },
+      {
         path: 'about',
         children: [
           {

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">yourwhipmobile</string>
+    <string name="title_activity_main">yourwhipmobile</string>
+    <string name="package_name">com.yourwhipmobile.app</string>
+    <string name="custom_url_scheme">com.yourwhipmobile.app</string>
+</resources>
